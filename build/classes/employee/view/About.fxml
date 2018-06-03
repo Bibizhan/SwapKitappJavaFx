@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="ABOUT">
+         <font>
+            <Font name="Chiller" size="31.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="193.0" layoutY="64.0" prefHeight="316.0" prefWidth="560.0" spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="64.0">
+         <children>
+            <TextArea prefHeight="500.0" prefWidth="300.0" text="The main idea of my project is to give ability to exchange hard-&#10;copy books in SDU. It means that all students who have hard copy&#10;books can register to this application and swap their books for some&#10;period of time. Everything is for free. Each user (student) will have&#10;personal account and can add their hard-copy books that they have&#10;and manage their account. And everybody can see their accounts.&#10;Once if you going to find some book, you may search in library. If&#10;you find what you want, so you may contact with owner of that&#10;book. There will be e-mail address or contact phone of owner. I&#10;think this project will help to not limit our students in reading and&#10;give us ability to find available books in SDU. It is like live library&#10;for free.&#10;&#10;" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </TextArea>
+            <ImageView fitHeight="260.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@vpCGCVyN1Xk.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
